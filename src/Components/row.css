@@ -138,3 +138,9 @@ body {
     top: 15%;
    
 }
+
+.box:hover{
+  transform: scale(1.01);
+  border-left: 2px solid orangered;
+ 
+}
