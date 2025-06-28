@@ -2,13 +2,14 @@ import react, { useState, useRef } from 'react';
 import './row.css'
 import circle from '../assets/circle.png';
 import cross from '../assets/cross.png';
+import musicSrc from '../assets/mouse-click-331781.mp3';
+import winningMusicSrc from '../assets/winning-218995.mp3';
 
 const Row = () => {
-
-  const music = new Audio('src/assets/mouse-click-331781.mp3');
-  const winningMusic = new Audio('src/assets/winning-218995.mp3');
   const [one,setOne]=useState(0);
   const [two,setTwo]=useState(0);
+  const music = new Audio(musicSrc);
+  const winningMusic = new Audio(winningMusicSrc);
 
   const musicOn = () => {
     music.currentTime = 0;
