@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+.start .nav{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #111B22;
+    border-bottom: 0.5vw solid orangered;
+    gap: 10vw;
+    height: 10%;
+    width: 100%;
+    font-size: 2vw;
+    top: 0;
+    
+    
+}
+span {
+    color:greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span:hover{
+    transform: scale(1.1);
+}

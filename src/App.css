@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #111B22;
+  
+}
+
+#pad{
+  position: absolute;
+  display: flex;
+  top: 10%;
+  left: 32%;
+  gap: 2vh;
+}
+#pad2{
+  position: absolute;
+  display: flex;
+  top: 32.4%;
+  left: 32%;
+  gap: 2vh;
+}
+#pad3{
+  position: absolute;
+  display: flex;
+  top: 55vh;
+  left: 32%;
+  gap: 2vh;
+}
+
+
